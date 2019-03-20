@@ -1,0 +1,62 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=2.5cm,bottom=2cm,left=2.5cm,right=2.5cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{CubeSats for Astronomy and Astrophysics}
+\author{Ewan S. Douglas, Ashley K. Carlton, Kerri L. Cahoy \\ Massachusetts Institute of Technology}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+
+
+CubeSats have the potential to expand astrophysical discovery space, complementing ground-based electromagnetic and gravitational-wave observatories. The CubeSat design specifications\footnote{http://www.cubesat.org} help streamline delivery of instrument payloads to space. In space, scientific measurements of gamma rays, X-rays, ultraviolet, infrared, and long-wave radio waves are possible without atmospheric attenuation, planners have more options for tailoring orbits to fit observational needs and may have more flexibility in rapidly rescheduling observations to respond to transients. With over 800 CubeSats launched by the end of 2017, there has been a corresponding increase in the availability and performance of commercial-off-the-shelf (COTS) components compatible with the CubeSat standards, from solar panels and power systems to reaction wheels for three axis stabilization and precision attitude control. These commercially available components can help reduce cost and schedule for CubeSat missions, allowing more resources to be directed toward scientific instrument payload development and technology demonstrations. 
+
+Despite the severe restrictions that CubeSats have in size, weight, and power (SWaP) which also limit aperture size without the development and use of more complex deployables, CubeSat constellations or swarms can still enable improved spectral, temporal, and spatial coverage of astrophysical targets. CubeSats can also be used for technology demonstrations; while such demonstrations may not be able to make the desired scientific observations on a CubeSat platform, they can reduce risk and increase the technology readiness level of key elements of future scientific instruments, such as detectors, actuators, optical sub-assemblies, and drive electronics.
+
+Previous and ongoing CubeSat projects have already contributed astrophysical measurements to the scientific community, and NASA has selected several new CubeSat missions for flight or for concept development. Most of these astrophysics missions focus on short wavelength observations and precision photometry. Technology development is ongoing to address implementing longer-wave infrared measurements, which require power-efficient cooled detectors compatible with CubeSat resource constraints. Work is also underway toward precision ranging and formation flying constellations that would be necessary for applications such as distributed imaging or interferometry, including challenges such as temporal, spectral, and gain calibration of instruments across multiple spacecraft. The desire for future astrophysics CubeSats to operate over longer mission lifetimes and in orbits with less benign radiation environments than low Earth orbit will require either development of radiation tolerant or hardened CubeSat components, comprehensive testing and qualification of COTS CubeSat components for operation in harsher environments, or both. 
+
+Examples of astrophysics CubeSat flight missions that have already launched include the Cosmic X-Ray Background Nanosatellite-2 (CXBN-2) mission,\footnote{Simms, L. M. et al. CXBN: a blueprint for an improved measurement of the cosmological x-ray background. in Proc. SPIE 8507, 850719-850719?12 (2012).} the Bright Target Explorer (BRITE),\footnote{Baade, D. et al. Short-term variability and mass loss in Be stars - I. BRITE satellite photometry of $\eta$ and $\mu$ Centauri. A\&A 588, A56 (2016)} and the Arcsecond Space Telescope Enabling Research in Astrophysics (ASTERIA).\footnote{Pong, C. M. et al. One-Arcsecond Line-of-Sight Pointing Control on ExoplanetSat, A Three-Unit CubeSat. AAS 11, (2011).} CXBN-2 was launched in 2012 to observe the diffuse X-ray background and help understand the underlying physics of the early universe. The BRITE constellation of nanosatellites has demonstrated millimagnitude photometry of Be stars. The Arcsecond Space Telescope Enabling Research in Astrophysics (ASTERIA), delivered and launched in 2017, is designed to provide part-in-a-million photometry using a piezoelectrically stabilized image plane detector to search for transiting terrestrial exoplanets around bright stars. We will discuss the value already provided by the current missions, describe several other already selected flight astrophysics observation and technology demonstration CubeSats, discuss other relevant astrophysics applications for CubeSats such as gravitational wave event follow-up, and assess what additional instrumentation and technology development areas, such as cooled detectors, are still needed in order to maximize benefit from a CubeSat astrophysics platform.
+
+
+
+ % need to specifically make the case for 
+ %we need a counter argument to refute. aperture aperture aperture
+
+%wavelengths:
+% In the era of time domain astronomy, rapid, multi-wavelength follow-up of interesting targets in the ultraviolet (UV) and X-Ray is of particular interest.
+% For example, recent  UV  observation of electromagnetic emission coincident with gravitational-wave detection of a binary neutron star coalescence was recorded by the 30 cm SWIFT UV Optical Telescope with 120 second observations\footnote{Evans, P. A. et al. Swift and NuSTAR observations of GW170817: Detection of a blue kilonova. Science (2017). doi:10.1126/science.aap9580}. 
+% A constellation of independent CubeSats with somewhat longer exposure times could provide more responsive follow-up to future such events.
+%The UltraViolet and Optical Telescope (UVOT) is a diffraction-limited 30 cm (12" GRB image from ground-based telescopeaperture) Ritchey-Chretien reflector, sensitive to magnitude 24 in a 17 minute exposure. https://www.swift.psu.edu/uvot/
+%U band UVOT observation:18.20 mag [AB]
+%u band zero-point- 18.34 (Johnson)
+%
+%observations of exoplanet transits are also being developed, such as the Compact Homodyne Astrophysics Spectrometer for Exoplanets (CHASE) and the Star Planet Activity Research CubeSat (SPARCS).
+
+% CubeSats complement existing suborbital balloon and sounding rocket programs by demonstrating longer mission durations, longer exposure times, and higher altitudes at the expense of reusability and aperture.
+
+% The field of astronomy has only begun to exploit the potential of CubeSats for continuous observation across the electromagnetic spectrum. 
+% Increased scientific and commercial interest in small satellites, coupled with effective sharing of best-practices and lessons learned, has the potential to accelerate astrophysical discovery by further lowering the cost and development time of space instrumentation, while increasing the diversity of individuals and institutions developing astrophysical instruments and techniques.
+
+%Additionally, offer CubeSats for science technology development. There are some technologies that can benefit and demonstrate reduced risk for a larger mission simply by being designed, tested, and operated in the space environment. %The CubeSat platform has been used to develop areas such as navigation, propulsion, attitude control, power generation and management, and communications data rates. 
+%We present CubeSats demonstrating such technologies as deployable apertures and/or distributed apertures, which can be used to develop wavefront correction techniques for imaging and phasing and stability for radio, constellations and formation flying, which can be used for coronagraphy, interferometry, and distributed apertures, and X-ray, UV, and IR detectors and low frequency radio receivers.
+
+\end{abstract}
+
+% \bibliographystyle{alpha}
+% \bibliography{sample}
+
+\end{document}
